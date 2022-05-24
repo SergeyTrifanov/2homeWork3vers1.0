@@ -9,7 +9,10 @@ public class Main {
         System.out.println("car = " + car);
         Truck truck = new Truck("камаз", 6);
         System.out.println("truck = " + truck);
+        Engine engine = new Car("жигуль", 5);
+        System.out.println("car = " + engine);
 
+        engine.check();
         bicycle.check();
         car.check();
         truck.check();
