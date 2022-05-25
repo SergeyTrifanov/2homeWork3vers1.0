@@ -1,7 +1,7 @@
 package ru.skypro;
 
 public class Truck extends Vehicle implements Engine{
-    @Override
+
     public void check() {
         this.baseService();
         this.checkEngine();

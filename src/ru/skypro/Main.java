@@ -12,10 +12,10 @@ public class Main {
         Engine engine = new Car("жигуль", 5);
         System.out.println("car = " + engine);
 
-        engine.check();
-        bicycle.check();
-        car.check();
-        truck.check();
+        Service service = new Service();
+        service.check(car);
+        service.check(bicycle);
+        service.check(truck);
 
     }
 
